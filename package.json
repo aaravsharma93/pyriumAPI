@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.0.0",
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/node": "^1.0.0",
+    "@walletconnect/qrcode-modal": "^1.7.8",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "body-parser": "^1.20.0",
+    "coingecko-api": "^1.0.10",
+    "cors": "^2.8.5",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.6.9",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.19",
+    "pm2": "^5.2.0",
+    "solc": "^0.8.14-fixed",
+    "validator": "^13.7.0",
+    "web3": "^1.7.4"
+  }
+}
